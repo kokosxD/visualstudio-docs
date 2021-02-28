@@ -72,7 +72,7 @@ You can add a *.natvis* file to any C++ project.
 
 1. Name the file, and select **Add**.
 
-   The new file is added to **Solution Explorer**, and opens in the Visual Studio document pane.
+   The new file is added to **Solution Explorer**, and opens in the Visual Studio document panel.
 
 The Visual Studio debugger loads *.natvis* files in C++ projects automatically, and by default, also includes them in the *.pdb* file when the project builds. If you debug the built app, the debugger loads the *.natvis* file from the *.pdb* file, even if you don't have the project open. If you don't want the *.natvis* file included in the *.pdb*, you can exclude it from the built *.pdb* file.
 
